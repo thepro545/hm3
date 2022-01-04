@@ -72,7 +72,7 @@ public class Main {
         }
 // Task 6
         int age = 19;
-        int salary = 58_000;
+        int salary = 90_000;
         int multi = 1;
         float limit = 1f;
 
@@ -83,11 +83,11 @@ public class Main {
         }
         if (salary >= 80_000) {
             limit *= 1.5f;
-        } else if (salary >= 50_000 && salary < 80_000) {
+        } else if (salary >= 50_000) {
             limit *= 1.2f;
         }
         float credit = salary * multi * limit;
-        System.out.println("Мы готовы выдать вам кредитную карту с лимитом" + credit + "рублей");
+        System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + credit + "рублей");
 // Task 7
         int age1 = 25;
         int salary1 = 60_000;
