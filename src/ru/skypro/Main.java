@@ -25,7 +25,7 @@ public class Main {
         if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }
-// Task 3
+// Task 3 Напишите программу, которая определяет, является ли год високосным или нет.
         int Year = 2021;
         if (Year % 4 == 0 && Year % 100 != 0 || Year % 400 == 0) {
             System.out.println(Year + " год является високосным");
